@@ -65,7 +65,7 @@ echo ''>> .zshrc
 
 echo 'alias helpRDL="echo '$helpcommands'"' >> .zshrc
 
-if [ "$reload" == "true" ]; then
+if [ "$reload" = "true" ]; then
   echo '[!]WARNING:: Sometimes for all the resources of the template to be loaded I need to close and open the terminal!'
   source .zshrc
 fi
